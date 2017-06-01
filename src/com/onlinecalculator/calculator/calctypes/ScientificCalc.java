@@ -6,7 +6,7 @@ public class ScientificCalc extends BasicCalc{
 	
 	public int menu(){
   	
-		System.out.println("------***------");
+		System.out.println("-------***-------");
     	System.out.println("1: Addition");
     	System.out.println("2: Subtraction");
     	System.out.println("3: Multiplication");
@@ -15,7 +15,7 @@ public class ScientificCalc extends BasicCalc{
     	System.out.println("6: SquareRoot");
     	System.out.println("7: Sin");
     	System.out.println("8: Exit");
-    	System.out.println("------***------");
+    	System.out.println("-------***-------");
     	System.out.println("Enter your choice");
     	ch=s.nextInt();
     	return ch;
